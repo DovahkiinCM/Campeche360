@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:icon="@drawable/ic_filter"
+        app:showAsAction="always"
+        android:title="Filtrar">
+
+        <menu>
+            <item android:id="@+id/action_1"
+                android:title="Filtro 1"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/action_2"
+                android:title="Filtro 2"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/action_3"
+                android:title="Filtro 3"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/action_4"
+                android:title="Filtro 4"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/action_5"
+                android:title="Filtro 5"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+</menu>

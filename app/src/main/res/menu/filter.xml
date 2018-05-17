@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:icon="@drawable/ic_filter"
+        app:showAsAction="always"
+        android:title="Filtrar">
+
+        <menu>
+    <item android:id="@+id/action_vacant"
+        android:title="Nombre Vacante"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_workArea"
+        android:title="Área de Trabajo"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_workType"
+        android:title="Tipo de Trabajo"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_location"
+        android:title="Ubicación"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_salary"
+        android:title="Sueldo"
+        app:showAsAction="never"/>
+        </menu>
+    </item>
+
+</menu>
