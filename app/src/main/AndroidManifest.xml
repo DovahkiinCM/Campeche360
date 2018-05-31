@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".FiliacionActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +20,7 @@
         <activity android:name=".MyInfoActivity" />
         <activity android:name=".RestorePassActivity" />
         <activity android:name=".SignUpActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".FiliacionActivity" />.
         <activity android:name=".LoginActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".InputEmailActivity"/>
